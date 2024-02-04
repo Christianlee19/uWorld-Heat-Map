@@ -8,8 +8,9 @@
     "page": "background.html"
   },
   "icons": {
-      "32": "images/favicon-32x32.png",
-      "144": "images/apple-touch-icon-144x144.png"
+      "32": "images/UW_32x32.png",
+      "64": "images/UW_64x64.png",
+      "128": "images/UW_128x128.png"
   },
   "content_scripts": [
     {
@@ -19,8 +20,9 @@
   ],
   "browser_action": {
       "default_icon": {
-          "32": "images/favicon-32x32.png",
-          "144": "images/apple-touch-icon-144x144.png"
+          "32": "images/UW_32x32.png",
+          "64": "images/UW_64x64.png",
+          "128": "images/UW_128x128.png"
       },
       "default_popup": "popup.html"
     }
