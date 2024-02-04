@@ -1,0 +1,54 @@
+body {
+  width: 135px; /* Adjust the width as a percentage of the viewport width */
+  font-size: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for the heatmap container */
+#heatmap-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heatmap-container div {
+  display: flex;
+}
+
+.heatmap-month {
+  display: flex; /* Use flex display for the month container */
+  flex-wrap: wrap; /* Allow squares to wrap to the next line */
+  margin-bottom: 2px; /* Add margin between months */
+  max-width: 112px;
+}
+
+/* Style for heatmap squares */
+.heatmap-square {
+  /* width: calc(70% / 14);
+  padding-bottom: calc(70% / 14); */
+  width: 1em;
+  height: 1em;
+  margin: 1px;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s ease;
+}
+
+/* Style for heatmap squares on hover */
+.heatmap-square:hover {
+  background-color: rgba(255, 0, 0, 0.8); /* Adjust hover color as needed */
+  cursor: pointer;
+}
