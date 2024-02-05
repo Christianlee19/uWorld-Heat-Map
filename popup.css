@@ -18,6 +18,12 @@ th {
   background-color: #f2f2f2;
 }
 
+#refreshButton {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
 /* Style for the heatmap container */
 #heatmap-container {
   display: flex;
