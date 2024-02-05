@@ -3,7 +3,7 @@
   "name": "uWorld Heatmap",
   "version": "1.1",
   "description": "Daily question progress",
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
   "background.service_worker": {
     "page": "background.html"
   },
@@ -23,7 +23,7 @@
   "content_scripts": [
     {
       "matches": ["*://apps.uworld.com/courseapp/usmle/*/previoustests/*"],
-      "js": ["content_script.js", "popup.js"]
+      "js": ["luxon.min.js", "content_script.js", "popup.js"]
     }
   ]
 }

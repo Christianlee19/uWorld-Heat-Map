@@ -1,4 +1,4 @@
-const { DateTime } = luxon;
+var DateTime = luxon.DateTime;
 const today = DateTime.local();
 
 
