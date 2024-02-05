@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "uWorld Heatmap",
   "version": "1.1",
   "description": "Daily question progress",
@@ -12,18 +12,18 @@
       "64": "images/UW_64x64.png",
       "128": "images/UW_128x128.png"
   },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "32": "images/UW_32x32.png",
+        "64": "images/UW_64x64.png",
+        "128": "images/UW_128x128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["*://apps.uworld.com/courseapp/usmle/*/previoustests/*"],
       "js": ["content_script.js", "popup.js"]
     }
-  ],
-  "browser_action": {
-      "default_icon": {
-          "32": "images/UW_32x32.png",
-          "64": "images/UW_64x64.png",
-          "128": "images/UW_128x128.png"
-      },
-      "default_popup": "popup.html"
-    }
+  ]
 }
