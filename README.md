@@ -1,7 +1,7 @@
 ## uWorld Heat Map
 
 ### Installation
-- install from google chrome store (free)
+- install from google chrome store (free): https://chromewebstore.google.com/detail/uworld-heatmap/mjhiemionbjmlbhjbnfppphnmbdmflgl
 
 ### User Guide
 - after installing the plugin, you may need to restart chrome
